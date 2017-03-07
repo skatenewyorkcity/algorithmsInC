@@ -1,2 +1,2 @@
-# algorithmsInJava
-Algorithms in Java
+# algorithmsInC
+Algorithms in C
