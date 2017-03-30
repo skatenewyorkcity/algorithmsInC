@@ -25,12 +25,12 @@ int state;
 
 /*A*/
 
-  long int arr[2300], i = 0;
+  long int arr[3000], i = 0;
 
   FILE *fp;
   fp = fopen("numbers.dat", "r");
 
-  while(i < 2300)
+  while(i < 3000)
   {
     fscanf(fp, "%ld", arr);
     arr[i] = *arr;
@@ -85,7 +85,7 @@ return 0;
 }
 
 long int count2 (long int *a)
-{ int N = 2300; 
+{ int N = 3000; 
   int counting = 0;
 
   double x, y, z;
@@ -141,7 +141,7 @@ long int count2 (long int *a)
 }
 
 long int count (long int *a)
-{ int N = 1300;
+{ int N = 2000;
   int counting = 0;
 
   double x, y, z;
