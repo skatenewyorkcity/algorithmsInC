@@ -1,2 +1,2 @@
 # algorithmsInC
-Algorithms in C
+Algorithmic analysis in C
